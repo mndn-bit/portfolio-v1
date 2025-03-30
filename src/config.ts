@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://kaz-n.dev/",
+  website: "https://mndn.dev/",
   author: "Kazuto Nishio",
-  profile: "https://kaz-n.dev/",
+  profile: "https://mndn.dev/",
   desc: "Cooooooooooming soon",
-  title: "Kazuto Nishio",
+  title: "minibit4",
   ogImage: "",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -13,7 +13,7 @@ export const SITE: Site = {
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
-    url: "https://github.com/nodinim/portfolio-v1/tree/main/src/content/blog",
+    url: "https://github.com/mndn-bit/portfolio-v1/tree/main/src/content/blog",
     text: "Suggest Changes",
     appendFilePath: false,
   },
@@ -34,13 +34,13 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/nodinim",
+    href: "https://github.com/mndn-bit",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "X",
-    href: "https://x.com/nodinim_g",
+    href: "https://x.com/m1n1don",
     linkTitle: `${SITE.title} on X`,
     active: true,
   },
@@ -52,7 +52,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:kazuto.nishio@seriolab.jp",
+    href: "mailto:here@mndn.jp",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },

@@ -23,23 +23,34 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Kazuto Nishio</h1>
+      <h1>Minidon</h1>
 
       <p>
-        Greetings,
-        My name is Kazuto Nishio (known as nodinim on the Internet).
+        Greetings, My nickname is Minidon.<br />
+        Recently, I affectionately call myself "minibit4".
       </p>
       <p>
-        This is my website for portfolio and blog.
-      </p>
-      <p>
-        This is the organization I manage: 
+        I research and develop projects related to cybersecurity at Seriolab Japan.<br />
+        You can visit the organization's website 
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://www.seriolab.jp/"
         >
-          Seriolab Japan
+          here
         </LinkButton>.
+      </p>
+      <p>
+        If you'd like to get in touch, feel free to contact me via X or Discord.  
+        Alternatively, you can email me at 
+        <LinkButton
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="mailto:here@mndn.dev"
+        >
+          here@mndn.dev
+        </LinkButton>.
+      </p>
+      <p>
+        If you don't receive a response within 7 days, your email may not have reached me.
       </p>
       {
         // only display if at least one social link is enabled
